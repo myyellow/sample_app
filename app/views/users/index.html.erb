@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Example Page</title>
+		<link rel="stylesheet" type="text/css" href="app/assets/stylesheets/css/bootstrap.css">
+	</head>
+
+		<body>
+		<header>
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			  	<div class="container">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">Chris Maiello - Sample</a>
+				    </div>
+
+				    
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				      
+				      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="http://www.linkedin.com/in/christophermaiello/en">LinkedIn</a></li>
+				        
+				            <li class="divider"></li>
+				            <li><a href="#"></a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				 </div>
+				</nav>
+		</header>
+
+	
+<body>
+
+<% @users.each do |f| %>
+
+	<p style="padding-left: 50pt">
+		Name: <%= f.name %><br />
+		Age: <%= f.age %><br />
+		Bio <%= f.bio %><br />
+	</p>
+
+<% end %>
+
+<a href="http://www.focusvision.com">
+<img src="http://i40.photobucket.com/albums/e201/camaiello/focusvision_zpsehkdymoa.png" alt="FocusVision Logo" border="0";>
+</a>
+
+</body>
+
+<footer>
+	&copy 2014 FocusVision Worldwide
+</footer>
+
+</html>
