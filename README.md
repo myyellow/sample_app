@@ -1,3 +1,3 @@
 # sample_app
 
-This is my readme. changes.
+This is my readme.
